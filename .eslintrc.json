@@ -8,10 +8,15 @@
     }
   },
   "rules": {
-    "object-curly-spacing": "off",
-    "babel/no-invalid-this": 1
+    "object-curly-spacing": "off"
   },
   "env": {
-    "es6": true
+    "es6": true,
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
